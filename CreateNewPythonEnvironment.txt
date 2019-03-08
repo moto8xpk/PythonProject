@@ -23,3 +23,12 @@ To start using this virtual environment, you need to activate it by running the 
 
 Once activated, the virtual environment’s bin directory will be added at the beginning of the $PATH variable. Also your shell’s prompt will change and it will show the name of the virtual environment you’re currently using. In our case that is my-project-env:
 
+if i want to downgrade the python version from 3.7 to 3.6 i should have a few steps
+
+install python 3.6
+
+## apt install python3.6
+
+set for new variable env:
+
+## alias pip3.6="python3.6 -m pip"
