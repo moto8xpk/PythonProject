@@ -1,0 +1,25 @@
+# PythonProject
+You can verify that Python 3 is installed on your system by running:
+
+## python3 -V
+
+Starting from Python 3.6, the recommended way to create a virtual environment is to use the venv module.
+
+Let’s start by installing the python3-venv package that provides the venv module.
+
+## sudo apt install python3-venv
+
+Once the module is installed we are ready to create virtual environments for Python 3.
+
+First switch to a directory where you would like to store your Python 3 virtual environments. Within the directory run the following command to create your new virtual environment:
+
+## python3 -m venv my-project-env
+
+The command above creates a directory called my-project-env, which contains a copy of the Python binary, the Pip package manager, the standard Python library and other supporting files.
+
+To start using this virtual environment, you need to activate it by running the activate script:
+
+## source my-project-env/bin/activate
+
+Once activated, the virtual environment’s bin directory will be added at the beginning of the $PATH variable. Also your shell’s prompt will change and it will show the name of the virtual environment you’re currently using. In our case that is my-project-env:
+
